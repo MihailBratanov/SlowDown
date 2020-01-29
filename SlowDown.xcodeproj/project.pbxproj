@@ -14,7 +14,6 @@
 		612F9E4A23CA853E0037B039 /* SlowDown.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 612F9E4823CA853E0037B039 /* SlowDown.xcdatamodeld */; };
 		612F9E4C23CA853F0037B039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612F9E4B23CA853F0037B039 /* Assets.xcassets */; };
 		612F9E4F23CA853F0037B039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612F9E4D23CA853F0037B039 /* LaunchScreen.storyboard */; };
-		612F9E5723CCA4C30037B039 /* ContentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F9E5623CCA4C30037B039 /* ContentPageViewController.swift */; };
 		612F9E5923CCC3F10037B039 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F9E5823CCC3F10037B039 /* Page1ViewController.swift */; };
 		612F9E5B23CCC4050037B039 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F9E5A23CCC4050037B039 /* Page2ViewController.swift */; };
 		612F9E5D23CCC4130037B039 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F9E5C23CCC4130037B039 /* Page3ViewController.swift */; };
@@ -22,6 +21,7 @@
 		612F9E6123CCC42D0037B039 /* Page5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F9E6023CCC42D0037B039 /* Page5ViewController.swift */; };
 		612F9E6323CCC43A0037B039 /* Page6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F9E6223CCC43A0037B039 /* Page6ViewController.swift */; };
 		612F9E6523CCC4430037B039 /* Page7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F9E6423CCC4430037B039 /* Page7ViewController.swift */; };
+		615F2A4223E0870E004B08E0 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F2A4123E0870E004B08E0 /* LocalNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,6 @@
 		612F9E4B23CA853F0037B039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		612F9E4E23CA853F0037B039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		612F9E5023CA853F0037B039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		612F9E5623CCA4C30037B039 /* ContentPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPageViewController.swift; sourceTree = "<group>"; };
 		612F9E5823CCC3F10037B039 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
 		612F9E5A23CCC4050037B039 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
 		612F9E5C23CCC4130037B039 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		612F9E6023CCC42D0037B039 /* Page5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5ViewController.swift; sourceTree = "<group>"; };
 		612F9E6223CCC43A0037B039 /* Page6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6ViewController.swift; sourceTree = "<group>"; };
 		612F9E6423CCC4430037B039 /* Page7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page7ViewController.swift; sourceTree = "<group>"; };
+		615F2A4123E0870E004B08E0 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,6 @@
 				612F9E4D23CA853F0037B039 /* LaunchScreen.storyboard */,
 				612F9E5023CA853F0037B039 /* Info.plist */,
 				612F9E4823CA853E0037B039 /* SlowDown.xcdatamodeld */,
-				612F9E5623CCA4C30037B039 /* ContentPageViewController.swift */,
 				612F9E5823CCC3F10037B039 /* Page1ViewController.swift */,
 				612F9E5A23CCC4050037B039 /* Page2ViewController.swift */,
 				612F9E5C23CCC4130037B039 /* Page3ViewController.swift */,
@@ -90,6 +89,7 @@
 				612F9E6023CCC42D0037B039 /* Page5ViewController.swift */,
 				612F9E6223CCC43A0037B039 /* Page6ViewController.swift */,
 				612F9E6423CCC4430037B039 /* Page7ViewController.swift */,
+				615F2A4123E0870E004B08E0 /* LocalNotificationManager.swift */,
 			);
 			path = SlowDown;
 			sourceTree = "<group>";
@@ -165,9 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				612F9E5723CCA4C30037B039 /* ContentPageViewController.swift in Sources */,
 				612F9E4423CA853E0037B039 /* ViewController.swift in Sources */,
 				612F9E6323CCC43A0037B039 /* Page6ViewController.swift in Sources */,
+				615F2A4223E0870E004B08E0 /* LocalNotificationManager.swift in Sources */,
 				612F9E6523CCC4430037B039 /* Page7ViewController.swift in Sources */,
 				612F9E5F23CCC4200037B039 /* Page4ViewController.swift in Sources */,
 				612F9E4023CA853E0037B039 /* AppDelegate.swift in Sources */,
@@ -319,7 +319,6 @@
 		612F9E5423CA853F0037B039 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SlowDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +335,6 @@
 		612F9E5523CA853F0037B039 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SlowDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
